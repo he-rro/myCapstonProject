@@ -1,13 +1,23 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 const links=[
-    {name:'Home' , url:"/"},
-    {name:'About' , url:"/about"},
-    {name:'Flights' , url:"/flights"},
-    {name:'Location' , url:"/location"},
+    {name:'Flights' , url:"/"},
+    {name:'Stays' , url:"/stays"},
+    {name:'Car Rental' , url:"/carRental"},
+    {name:'Packages' , url:"/packages"},
     {name:'Login' , url:"/login"},
 ]
 export default function NavBar() {
   return (
-    <div>NavBar</div>
+    <nav  >
+        <ul className='flex bg-green'>
+           { links.map((value)=>{
+           return (<li className='m-5'>
+            {<Link to={value.url}> {value.name}</Link>}
+           </li>)
+           })
+           }
+        </ul>
+    </nav>
   )
 }

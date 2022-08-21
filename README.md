@@ -1,4 +1,4 @@
-# Travelers
+# Travely
 
 Aim of this project is to create website that through it people can manage thier
 trips online , they can buy tickets online and book thier seats ,they can also

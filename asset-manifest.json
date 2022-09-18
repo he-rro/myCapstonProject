@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/myCapstonProject/static/css/main.44b15e27.css",
+    "main.js": "/myCapstonProject/static/js/main.a56c9769.js",
+    "static/media/avatarImage.jpeg": "/myCapstonProject/static/media/avatarImage.d37df0395195993244c9.jpeg",
+    "static/media/Destination5.png": "/myCapstonProject/static/media/Destination5.8db742a0db2114f7116a.png",
+    "static/media/Destination2.png": "/myCapstonProject/static/media/Destination2.64eec9804e3149d26787.png",
+    "static/media/Destination1.png": "/myCapstonProject/static/media/Destination1.b43b40ebcae365ec1bcf.png",
+    "static/media/Destination6.png": "/myCapstonProject/static/media/Destination6.b43b40ebcae365ec1bcf.png",
+    "static/media/Destination4.png": "/myCapstonProject/static/media/Destination4.c19a433ba2f75f2cd33b.png",
+    "static/media/pic23.png": "/myCapstonProject/static/media/pic23.1ee53c83de12ce38a902.png",
+    "static/media/Destination3.png": "/myCapstonProject/static/media/Destination3.b4028caa98dffd19d08e.png",
+    "static/media/Car7.jpg": "/myCapstonProject/static/media/Car7.670fd0773731c626df28.jpg",
+    "static/media/Car1.jpg": "/myCapstonProject/static/media/Car1.c540c6b139c395c765d7.jpg",
+    "static/media/Car10.jpg": "/myCapstonProject/static/media/Car10.d51b4ebee7a97db41442.jpg",
+    "static/media/Car3.jpg": "/myCapstonProject/static/media/Car3.782e2f3f84eefe7df48a.jpg",
+    "static/media/Car14.png": "/myCapstonProject/static/media/Car14.3308024437743551f987.png",
+    "static/media/Car13.png": "/myCapstonProject/static/media/Car13.37e37e6535ba943dcd2a.png",
+    "static/media/Car15.jpg": "/myCapstonProject/static/media/Car15.c013381ecd3b348fdd45.jpg",
+    "static/media/Car4.jpg": "/myCapstonProject/static/media/Car4.f700aacbcff8823ceb7d.jpg",
+    "static/media/Car9.jpg": "/myCapstonProject/static/media/Car9.6dd9b76554f685b6cc7d.jpg",
+    "static/media/Car16.jpg": "/myCapstonProject/static/media/Car16.d9eeeec62421190e2f7b.jpg",
+    "static/media/Car12.jpg": "/myCapstonProject/static/media/Car12.89437df636c2df294677.jpg",
+    "static/media/Car2.jpg": "/myCapstonProject/static/media/Car2.828a5b968364e3c9d563.jpg",
+    "static/media/Car6.webp": "/myCapstonProject/static/media/Car6.67286c74eba61b69c84f.webp",
+    "static/media/Car5.jpg": "/myCapstonProject/static/media/Car5.0d77ef5439eca72b8495.jpg",
+    "static/media/logo.svg": "/myCapstonProject/static/media/logo.ca119a1d2eb37f73cab0e512cb03e4ed.svg",
+    "index.html": "/myCapstonProject/index.html",
+    "main.44b15e27.css.map": "/myCapstonProject/static/css/main.44b15e27.css.map",
+    "main.a56c9769.js.map": "/myCapstonProject/static/js/main.a56c9769.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44b15e27.css",
+    "static/js/main.a56c9769.js"
+  ]
+}

@@ -6,8 +6,6 @@ saerch and choose available trips that interest them.
 
 ## Features
 
--Authentication
 -Search
 -Filtering
-
-### Api used in project
+-listing

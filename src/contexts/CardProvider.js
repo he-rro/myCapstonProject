@@ -6,7 +6,7 @@ export const CarContext =  createContext()
 
 export default function CarProvider(  {children} ) {
 
-    const [ car, setCar ] = useState( carData );
+    const [ car] = useState( carData );
     
 
 

@@ -9,14 +9,14 @@ export default function Search() {
         { display:' Check-Out' ,type:'date'}
     ];
   return (
-    <div className='flex justify-center bg-bg-search p-2 rounded-full bg-violet-400'>
+    <div className='flex justify-center bg-bg-search p-2 rounded-full '>
         {
    searchItems.map( value => {
     return (
         <div className='flex items-center justify-center flex-col p-4 '>
     <label className='text-light text-label-color' > {value.display} </label>
     <input
-    className=' bg-transparent  text-center text-black px-6 placeholder-gray-800'
+    className=' bg-violet-600  rounded-lg p-3 text-center text-black px-6 placeholder-gray-800'
      type = { value.type }  
      placeholder={value.placeholder}
       />
@@ -26,9 +26,9 @@ export default function Search() {
         }
   
    <button
-    className='px-4 my-6 mr-12 rounded-full cursor-pointer text-white bg-gradient-to-r 
-    from-pink-600  to-yellow-500 hover:from-pink-400 hover:to-violet-900
-    text-sm font-thin uppercase  transition ease-in-out duration-500 hover:bg-green ' > Search |
+    className='px-4 mt-6 mr-12 rounded-full cursor-pointer text-white text-xl font-semibold
+    bg-gradient-to-r  from-pink-600  to-yellow-500 hover:from-pink-400 hover:to-violet-900
+     uppercase  transition ease-in-out duration-500 hover:bg-green ' > Search |
       <FaSearchLocation className='inline ml-2'/></button>
 
     </div>
@@ -36,17 +36,4 @@ export default function Search() {
 }
 
 
- /* <div className='flex items-center justify-center flex-col p-6'>
-    <label className='text-light text-label-color' >  Where to Travle ?</label>
-    <input
-    className=' bg-transparent  text-center text-black '
-     type = { 'text' } name='place' placeholder='search for places' />
-   </div>
-   <div>
-    <label> Check-In</label>
-    <input type={'date'} />
-   </div>
-   <div>
-    <label> Check-Out</label>
-    <input type={'date'} />
-   </div> */
+ 

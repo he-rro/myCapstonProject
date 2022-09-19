@@ -10,7 +10,6 @@ export default function Flights() {
 
   return (
     <div>
-    <ScrollToTop />
       <Hero />
       <Services />
       <Carousel/>

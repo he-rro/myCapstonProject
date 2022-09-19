@@ -9,11 +9,11 @@ export default function Search() {
         { display:' Check-Out' ,type:'date'}
     ];
   return (
-    <div className='flex bg-bg-search p-2 rounded-full'>
+    <div className='flex justify-center bg-bg-search p-2 rounded-full bg-violet-400'>
         {
    searchItems.map( value => {
     return (
-        <div className='flex items-center justify-center flex-col p-4'>
+        <div className='flex items-center justify-center flex-col p-4 '>
     <label className='text-light text-label-color' > {value.display} </label>
     <input
     className=' bg-transparent  text-center text-black px-6 placeholder-gray-800'
@@ -26,7 +26,8 @@ export default function Search() {
         }
   
    <button
-    className='px-4 my-6 mr-12 rounded-full cursor-pointer text-white bg-blue-800 
+    className='px-4 my-6 mr-12 rounded-full cursor-pointer text-white bg-gradient-to-r 
+    from-pink-600  to-yellow-500 hover:from-pink-400 hover:to-violet-900
     text-sm font-thin uppercase  transition ease-in-out duration-500 hover:bg-green ' > Search |
       <FaSearchLocation className='inline ml-2'/></button>
 

@@ -9,7 +9,8 @@ import CarRental from './Pages/CarRental';
 import Login from './Pages/Login';
 import Footer from './components/Footer';
 import SignUp from './Pages/SignUp';
-import Subscribe from './components/Subscribe';
+import Subscribe from './Pages/Subscribe';
+import ScrollToTop from './components/ScrollToTop';
 
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
       <Route path='/signup' element={<SignUp/>} />
       <Route path='/subscribe' element={<Subscribe/>} />
      </Routes>
-
+ <ScrollToTop/>
      <Footer />
     </div>
   );

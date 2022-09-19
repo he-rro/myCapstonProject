@@ -5,10 +5,10 @@ export default function Testimonials() {
   return (
     <Section id="testimonials">
       <div className="title">
-        <h2>Happy Customers</h2>
+        <h2>Our Customer Feedbacks</h2>
       </div>
       <div className="testimonials">
-        <div className="testimonial">
+        <div className="testimonial  bg-violet-200">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
             asperiores eaque.
@@ -16,12 +16,12 @@ export default function Testimonials() {
           <div className="info">
             <img src={avatarImage} alt="" />
             <div className="details">
-              <h4>Kishan Sheth</h4>
-              <span>CEO - Shashaan Web Solutions</span>
+              <h4>Zahra Azad</h4>
+              <span>Paris Package</span>
             </div>
           </div>
         </div>
-        <div className="testimonial">
+        <div className="testimonial bg-violet-200">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
             asperiores eaque.
@@ -29,12 +29,12 @@ export default function Testimonials() {
           <div className="info">
             <img src={avatarImage} alt="" />
             <div className="details">
-              <h4>Kishan Sheth</h4>
-              <span>CEO - Shashaan Web Solutions</span>
+              <h4>Sam wiliam</h4>
+              <span>Dubai Package</span>
             </div>
           </div>
         </div>
-        <div className="testimonial">
+        <div className="testimonial bg-violet-200">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
             asperiores eaque.
@@ -42,8 +42,8 @@ export default function Testimonials() {
           <div className="info">
             <img src={avatarImage} alt="" />
             <div className="details">
-              <h4>Kishan Sheth</h4>
-              <span>CEO - Shashaan Web Solutions</span>
+              <h4>Liz Roy</h4>
+              <span>London Package</span>
             </div>
           </div>
         </div>
@@ -64,7 +64,6 @@ const Section = styled.section`
     margin: 0 2rem;
     gap: 2rem;
     .testimonial {
-      background-color: aliceblue;
       padding: 2rem;
       border-radius: 0.5rem;
       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;

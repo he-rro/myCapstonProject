@@ -16,11 +16,7 @@ import Car14 from "../assets/Car14.png"
 import Car15 from "../assets/Car15.jpg"
 import Car16 from "../assets/Car16.jpg"
 
-/* import plane2 from "../assets/plane2.jpg"
-import plane4 from "../assets/plane4.png"
-import info1 from "../assets/info1.png";
-import info2 from "../assets/info1.png";
-import info3 from "../assets/info3.png"; */
+
 
 export const carData = [
     {

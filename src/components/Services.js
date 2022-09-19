@@ -33,10 +33,10 @@ export default function Services() {
     },
   ];
   return (
-    <Section id="services">
+    <Section id="services" >
       {data.map((service, index) => {
         return (
-          <div className="service">
+          <div className="service bg-gradient-to-r   from-violet-200">
             <div className="icon">
               <img src={service.icon} alt="" />
             </div>
@@ -59,7 +59,7 @@ const Section = styled.section`
     flex-direction: column;
     gap: 1rem;
     padding: 2rem;
-    background-color: aliceblue;
+   
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transition: 0.3s ease-in-out;
     &:hover {

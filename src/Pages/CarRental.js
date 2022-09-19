@@ -16,13 +16,13 @@ export default function CarRental() {
   return (
     
    <div  className='min-h-[500px]'>
-   <h2>hey that is filter page</h2>
+  
    
 
   
-  <div>
+  <div className='flex justify-center'>
         <input 
-        className='bg-red-400'
+        className=' bg-gray-200 p-3 rounded-lg w-[300px]'
         placeholder='search'
         type={'text'}
         onChange={searchText}

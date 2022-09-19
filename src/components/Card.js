@@ -64,12 +64,12 @@ size={20}/>
 
  </div>
 
-<div className="distance flex  flex-col justify-around items-center">
+<div className="distance flex  flex-col justify-around items-end">
     
-<span className='font-black text-3xl'>{card.cost}</span>
+<span className='font-black text-2xl'>{card.cost}</span>
 <button className='bg-gradient-to-r   from-pink-500 to-violet-700
-      hover:from-pink-500  hover:to-yellow-500 rounded-xl p-3 text-white font-medium' > 
-      View Deal </button>
+      hover:from-pink-500  hover:to-yellow-500 rounded-xl px-3 py-1 text-white font-medium' > 
+      View </button>
 </div>
   
 </div>
